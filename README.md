@@ -24,7 +24,7 @@
 ### 1. Clone the Repo -
 
 
-git clone https://github.com/your-username/backend-assignment.git
+git clone https://github.com/akajayesh/Bot-Assignment.git
 cd backend-assignment
 
 ### 2. Setup the virtual environement - 
