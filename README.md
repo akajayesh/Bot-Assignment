@@ -1,0 +1,45 @@
+ Django Internship Assignment – Backend API with Celery & Telegram Bot
+
+## Tech Stack I used for building this project are :-
+
+- Django & Django REST Framework
+- Celery + Redis
+- Telegram Bot API
+- Python Decouple
+- JWT Auth (or Token Auth)
+
+---
+
+##  It includes Features like :-
+
+-  Public & Protected API Endpoints
+-  User Registration with async email (Celery)
+-  Telegram Bot integration (/start saves username)
+-  Token-based Authentication
+
+---
+
+## Follow these Setup Instructions:-
+
+### 1. Clone the Repo -
+
+
+git clone https://github.com/your-username/backend-assignment.git
+cd backend-assignment
+
+### 2. Setup the virtual environement - 
+
+python -m venv venv 
+venv\Scripts\activate
+pip install -r requirements.txt
+
+### 3. Now configure your .env file -
+SECRET_KEY=your-secret-key
+DEBUG=True
+TELEGRAM_BOT_TOKEN=your-bot-token
+DEFAULT_FROM_EMAIL=admin@example.com
+
+### 4. Run the project -
+
+python manage.py migrate
+python manage.py runserver
