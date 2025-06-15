@@ -1,4 +1,8 @@
- Django Internship Assignment – Backend API with Celery & Telegram Bot
+ Django Internship Assignment - Backend API with Celery & Telegram Bot
+
+This project was built for an internship assignment under time constraints.
+Faced issues with Celery on Windows and resolved them using --pool=solo mode.
+The bot is simple but works . So it handles only /start for now.
 
 ## Tech Stack I used for building this project are :-
 
