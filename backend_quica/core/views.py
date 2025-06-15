@@ -6,6 +6,8 @@ from rest_framework.response import Response
 
 from core.task import send_wlc_email
 
+# Not using frontend since assignment explicitly says no frontend required
+
 @api_view(['GET'])
 @permission_classes([AllowAny])
 def public_api(request):
