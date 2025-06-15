@@ -1,3 +1,5 @@
+# Celery task triggered here, pool set to solo due to Windows error
+
 import os
 from celery import Celery
 
