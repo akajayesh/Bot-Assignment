@@ -47,3 +47,9 @@ DEFAULT_FROM_EMAIL=admin@example.com
 
 python manage.py migrate
 python manage.py runserver
+
+
+Last but not least - 
+This project was built by me as part of an internship assignment.
+Used online documentation, StackOverflow, and tools like VSCode Copilot/ChatGPT as occasional reference .
+Every feature and bugfix was tested manually by me.
