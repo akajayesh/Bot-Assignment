@@ -3,6 +3,7 @@
 import os
 import sys
 
+# TODO: Would add error handling here if this was a production app
 
 def main():
     """Run administrative tasks."""
